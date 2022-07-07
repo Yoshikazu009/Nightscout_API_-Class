@@ -1,23 +1,14 @@
-# Name（リポジトリ/プロジェクト/OSSなどの名前）
+# nightscout_api.py
 
-分かりやすくてカッコイイ名前をつける（今回は"hoge"という名前をつける）
+Nightscoutに格納された血糖値をAPIコールして取得するクラス
 
-"hoge"が何かを簡潔に紹介する
+## メソッド
 
-# DEMO
-
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
-
-# Features
-
-"hoge"のセールスポイントや差別化などを説明する
+### get_sgv() 最新の血糖値を取得するメソッド
 
 # Requirement
 
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
+* requests
 
 # Installation
 
@@ -37,7 +28,7 @@ print(api.get_sgv()) #最新の血糖値を標準出力する。
 
 # Note
 
-nstun
+インスタンス変数urlの値を利用者のNightscoutのURLに書き換える。
 
 # Author
 
