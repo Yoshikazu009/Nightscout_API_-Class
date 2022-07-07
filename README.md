@@ -1,6 +1,8 @@
-# nightscout_api.py
+# Nightscout API Class
 
 Nightscoutに格納された血糖値をAPIコールして取得するクラス
+
+## ファイル名 nightscout_api.py
 
 ## メソッド
 
