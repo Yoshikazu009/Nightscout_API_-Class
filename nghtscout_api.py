@@ -1,5 +1,5 @@
 #Nightscout API Class
-import requests''
+import requests
 class Nightscout_API:
 
 	url = None	#Nightscout User URL格納変数
