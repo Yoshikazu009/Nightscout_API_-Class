@@ -28,6 +28,13 @@ api.url = "https://xxxxxx.herokuapp.com" #NightscoutのURLを設定
 print(api.get_sgv()) #最新の血糖値を標準出力する。
 ```
 
+実行結果
+
+```text
+306
+```
+
+
 # Note
 
 インスタンス変数urlの値を利用者のNightscoutのURLに書き換える。
